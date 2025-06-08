@@ -6,7 +6,16 @@
 * imgcat (downloaded from [https://iterm2.com/utilities/imgcat](https://iterm2.com/utilities/imgcat))
 * GFX files in PNG/JPG/JPEG format in one folder
 
-## How to install
+## How to install 
+
+### From Homebrew
+
+```
+brew tap grzegorzblaszczyk/motivate
+brew install motivate
+```
+
+### Directly from GitHub
 
 ```
 mkdir -p ~/bin && curl -o ~/bin/motivate.sh https://raw.githubusercontent.com/grzegorzblaszczyk/motivate_me/refs/heads/main/motivate.sh && chmod +x ~/bin/motivate.sh
